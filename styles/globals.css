@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.primary-color {
+  color: #fff;
+}
+
+.secondary-color {
+  color: #2c2c96;
+}
+
+.button-primary {
+  color: #fff;
+  background-color: #2c2c96;
+  border-color: #2c2c96;
+}

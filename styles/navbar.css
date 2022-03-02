@@ -1,0 +1,6 @@
+.img__resize {
+  display: block;
+  min-width: 80px;
+  min-height: 80px;
+  height: auto;
+}

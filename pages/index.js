@@ -1,16 +1,16 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
+import Navbar from '../components/common/navbar';
+import Footer from '../components/common/footer';
 import Main from '../components/Main';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Main />
-      <Footer />
+      <Head>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+      </Head>
     </>
   );
 };
