@@ -1,9 +1,7 @@
-import React from 'react';
-
 const Main = () => {
   return (
     <div>
-      <h1>content</h1>
+      <h1>hi</h1>
     </div>
   );
 };
