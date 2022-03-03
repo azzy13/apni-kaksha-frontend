@@ -1,0 +1,23 @@
+/* Colors */
+.primary_bg_color {
+  background-color: rgba(34, 38, 53, 1);
+}
+
+.secondary_color {
+  color: #fff;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+/* Layout */
+.p_6 {
+  padding: 6rem;
+}
+
+.links {
+  text-decoration: none;
+  padding-left: 0;
+  list-style: none;
+}

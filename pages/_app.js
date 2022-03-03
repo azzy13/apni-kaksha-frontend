@@ -1,8 +1,11 @@
 import '../styles/globals.css';
 import Head from 'next/head';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/navbar.css';
 import Layout from '../components/Layout';
+
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   <Head>

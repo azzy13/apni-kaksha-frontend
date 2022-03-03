@@ -1,0 +1,18 @@
+.img__resize {
+  display: block;
+  min-width: 80px;
+  min-height: 80px;
+  height: auto;
+}
+
+.primary_bg_color {
+  background-color: #fff;
+}
+
+.secondary_bg_color {
+  background-color: #2c2c96;
+}
+
+.font_16 {
+  font-size: 16px;
+}
