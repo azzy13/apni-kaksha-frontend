@@ -13,7 +13,7 @@ import Link from 'next/link';
 function Footer() {
   return (
     <footer className={footerStyles.primary_bg_color}>
-      <div className='container pt-5'>
+      <div className={`container ${footerStyles.pt_6}`}>
         <div className='row'>
           <div className='col-5'>
             <div className=''>
@@ -55,7 +55,7 @@ function Footer() {
                 <h5>Support</h5>
 
                 <li
-                  className={`${footerStyles.secondary_color} ${footerStyles.links}`}
+                  className={`font-weight-bold ${footerStyles.secondary_color} ${footerStyles.links}`}
                 >
                   <Link href='/legal/privacy-policy'>Privacy Policy</Link>
                 </li>

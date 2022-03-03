@@ -31,7 +31,7 @@ const Navbar_Main = () => {
           </NavbarBrand>
           <NavbarToggler onClick={function noRefCheck() {}} />
           <Collapse navbar>
-            <Nav className='me-auto' navbar>
+            <Nav className='me-auto mx-auto' navbar>
               <UncontrolledDropdown inNavbar nav className='list-unstyled'>
                 <DropdownToggle caret nav>
                   About Us
