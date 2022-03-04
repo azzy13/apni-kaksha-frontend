@@ -10,7 +10,7 @@ import Image from 'next/image';
 import footerStyles from '../../styles/Footer.module.css';
 import Link from 'next/link';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className={footerStyles.primary_bg_color}>
       <div className={`container ${footerStyles.pt_6}`}>
@@ -152,6 +152,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
